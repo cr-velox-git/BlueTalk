@@ -32,6 +32,4 @@ class BluetoothViewModel @Inject constructor(
     fun stopScan(){
         bluetoothController.stopDiscovery()
     }
-
-
 }
